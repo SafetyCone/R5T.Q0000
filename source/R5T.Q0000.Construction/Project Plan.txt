@@ -1,3 +1,0 @@
-R5T.Q0000.Construction - Construction project for General .NET C# explorations, experiments, and demonstrations..
-
-GOALS:

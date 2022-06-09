@@ -1,0 +1,9 @@
+'	': 009, "tab"
+'
+': 010, "line-feed"
+'': 011, "vertical-tab"
+'': 012, "form-feed"
+'': 013, "carriage-return"
+' ': 032, "space"
+'': 133, "next-line"
+' ': 160, "non-breaking-space"
