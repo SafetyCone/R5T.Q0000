@@ -7,7 +7,10 @@ namespace R5T.Q0000
     {
         static void Main()
         {
-            Instances.CharacterExplorations.OutputAllCharacters();
+            //Instances.CharacterExplorations.OutputAllCharacters();
+
+            //Instances.PathExplorations.ShowInvalidPathAndFileNameCharacters();
+            Instances.PathExplorations.AreAllInvalidPathCharactersInInvalidFileNameCharacters();
         }
     }
 }
