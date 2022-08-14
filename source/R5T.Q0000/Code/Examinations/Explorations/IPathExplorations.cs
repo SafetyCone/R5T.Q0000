@@ -46,26 +46,23 @@ namespace R5T.Q0000
 			Console.WriteLine(Instances.CharacterOperator.List(pathCharactersNotInFileNameCharacters)); // Empty.
         }
 
-		public void ShowInvalidPathAndFileNameCharacters()
+        public void DescribeInvalidPathAndFileNameCharacters()
         {
-			// See: ...\Reference\Path-Invalid Characters\Invalid Path Characters.txt
-			var invalidPathCharacters01 = Path.GetInvalidPathChars();
+            // See: ...\Reference\Path-Invalid Characters\Invalid Path Characters.txt
+            var invalidPathCharacters = Path.GetInvalidPathChars();
 
-			Console.WriteLine($"{nameof(Path)}.{nameof(Path.GetInvalidPathChars)}:");
-			Console.WriteLine(String.Join(", ", invalidPathCharacters01));
+			var invalidPathCharactersDescription = $"{nameof(Path)}.{nameof(Path.GetInvalidPathChars)}():\n\n" +
+				Instances.CharacterOperator.Describe(invalidPathCharacters);
 
-			Console.WriteLine();
+			File.WriteAllText(@"C:\Temp\Invalid Path Characters.txt", invalidPathCharactersDescription);
 
-			// Obsolete.
-			//var invalidPathCharacters02 = Path.InvalidPathChars;
+            // See: ...\Reference\Path-Invalid Characters\Invalid File Name Characters.txt
+            var invalidFileNameCharacters = Path.GetInvalidFileNameChars();
 
-			Console.WriteLine();
+            var invalidFileNameCharactersDescription = $"{nameof(Path)}.{nameof(Path.GetInvalidFileNameChars)}():\n\n" +
+				Instances.CharacterOperator.Describe(invalidFileNameCharacters);
 
-			// See: ...\Reference\Path-Invalid Characters\Invalid File Name Characters.txt
-			var invalidFileNameChars = Path.GetInvalidFileNameChars();
-
-			Console.WriteLine($"{nameof(Path)}.{nameof(Path.GetInvalidFileNameChars)}:");
-			Console.WriteLine(String.Join(", ", invalidFileNameChars));
+			File.WriteAllText(@"C:\Temp\Invalid File Name Characters.txt", invalidFileNameCharactersDescription);
 		}
-	}
+    }
 }
