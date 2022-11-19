@@ -7,15 +7,18 @@ namespace R5T.Q0000
     {
         static void Main()
         {
-            // Explorations
+            /// Explorations.
             //Instances.CharacterExplorations.OutputAllCharacters();
 
 
             //Instances.PathExplorations.ShowInvalidPathAndFileNameCharacters();
             //Instances.PathExplorations.AreAllInvalidPathCharactersInInvalidFileNameCharacters();
-            Instances.PathExplorations.DescribeInvalidPathAndFileNameCharacters();
+            //Instances.PathExplorations.DescribeInvalidPathAndFileNameCharacters();
+
+            /// Experiments.
+            Instances.EnumerableExperiments.DoesZipThrow();
             
-            // Demonstrations
+            /// Demonstrations.
             //Instances.PathDemonstrations.InvalidFileNameCharactersContainsAllInvalidPathCharacters();
         }
     }

@@ -37,7 +37,7 @@ namespace R5T.Q0000
             // Write to input file.
             var filePath = Instances.FilePathProvider.GetOutputFilePath(outputFileName);
 
-            FileHelper.WriteAllLines_Synchronous(
+            F0000.FileOperator.Instance.WriteAllLines_Synchronous(
                 filePath,
                 lines);
         }
