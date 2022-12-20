@@ -10,14 +10,21 @@ namespace R5T.Q0000
             /// Explorations.
             //Instances.CharacterExplorations.OutputAllCharacters();
 
-
             //Instances.PathExplorations.ShowInvalidPathAndFileNameCharacters();
             //Instances.PathExplorations.AreAllInvalidPathCharactersInInvalidFileNameCharacters();
             //Instances.PathExplorations.DescribeInvalidPathAndFileNameCharacters();
 
+
             /// Experiments.
-            Instances.EnumerableExperiments.DoesZipThrow();
+            //Instances.EnumerableExperiments.DoesZipThrow();
+
+            NameOfOperatorExperiments.Instance.HowIsFullNamespaceNameHandled();
+
+            //StringExperiments.Instance.RangeOperatorWithOutOfBoundsIndex();
+            //StringExperiments.Instance.RangeOperatorStartingAtLastIndex();
+            //StringExperiments.Instance.WhatIsTheLengthOfANullString();
             
+
             /// Demonstrations.
             //Instances.PathDemonstrations.InvalidFileNameCharactersContainsAllInvalidPathCharacters();
         }
