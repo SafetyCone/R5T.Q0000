@@ -16,14 +16,17 @@ namespace R5T.Q0000
 
 
             /// Experiments.
-            //Instances.EnumerableExperiments.DoesZipThrow();
+            //EnumerableExperiments.Instance.DoesZipThrow();
 
-            NameOfOperatorExperiments.Instance.HowIsFullNamespaceNameHandled();
+            //FileSystemExperiments.Instance.GetFiles();
+            FileSystemExperiments.Instance.GetFiles_WithEnumerationOptions();
+
+            //NameOfOperatorExperiments.Instance.HowIsFullNamespaceNameHandled();
 
             //StringExperiments.Instance.RangeOperatorWithOutOfBoundsIndex();
             //StringExperiments.Instance.RangeOperatorStartingAtLastIndex();
             //StringExperiments.Instance.WhatIsTheLengthOfANullString();
-            
+
 
             /// Demonstrations.
             //Instances.PathDemonstrations.InvalidFileNameCharactersContainsAllInvalidPathCharacters();
