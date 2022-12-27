@@ -14,8 +14,6 @@ namespace R5T.Q0000
         /// <summary>
         /// Writes characters selected by the predicate to the console and to the specified file.
         /// </summary>
-        /// <param name="outputFileName"></param>
-        /// <param name="predicate"></param>
         public void OutputCharactersWhere(
             string outputFileName,
             Func<char, bool> predicate,

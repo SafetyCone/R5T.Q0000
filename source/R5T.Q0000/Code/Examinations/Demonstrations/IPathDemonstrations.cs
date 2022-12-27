@@ -10,10 +10,13 @@ namespace R5T.Q0000
 	[DemonstrationsMarker]
 	public partial interface IPathDemonstrations : IDemonstrationsMarker
 	{
+		/// <summary>
+		/// Shows that all invalid path characters are also included in the list of invalid file name characters.
+		/// </summary>
 		public void InvalidFileNameCharactersContainsAllInvalidPathCharacters()
         {
-			var invalidPathCharacters = Path.GetInvalidPathChars();
-			var invalidFileNameCharacters = Path.GetInvalidFileNameChars();
+			var invalidPathCharacters = Instances.PathOperator.GetInvalidPathCharacters();
+			var invalidFileNameCharacters = Instances.PathOperator.GetInvalidFileNameCharacters();
 
 			var pathCharactersNotInFileNameCharacters = invalidPathCharacters.Except(invalidFileNameCharacters).Now();
 
@@ -23,7 +26,8 @@ namespace R5T.Q0000
 
 			Console.WriteLine("Invalid path characters that are not in invalid file name characters:");
 			Console.WriteLine(
-				Instances.CharacterOperator.List(pathCharactersNotInFileNameCharacters)); // Empty.
+                // Result: empty.
+                Instances.CharacterOperator.List(pathCharactersNotInFileNameCharacters));
 		}
 	}
 }
