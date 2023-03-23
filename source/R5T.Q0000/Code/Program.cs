@@ -16,10 +16,15 @@ namespace R5T.Q0000
 
 
             /// Experiments.
+            //ArrayExperiments.Instance.ArrayAsIList_Add();
+
             //EnumerableExperiments.Instance.DoesZipThrow();
+            //EnumerableExperiments.Instance.MaxOnEmpty();
+
+            Experiments.Instance.EquatableInstancesOfInterfaceTypeAndDictionaries();
 
             //FileSystemExperiments.Instance.GetFiles();
-            FileSystemExperiments.Instance.GetFiles_WithEnumerationOptions();
+            //FileSystemExperiments.Instance.GetFiles_WithEnumerationOptions();
 
             //NameOfOperatorExperiments.Instance.HowIsFullNamespaceNameHandled();
 

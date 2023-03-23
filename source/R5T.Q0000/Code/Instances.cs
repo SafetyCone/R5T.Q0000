@@ -19,6 +19,7 @@ namespace R5T.Q0000
 
         public static ICharacterOperator CharacterOperator => Q0000.CharacterOperator.Instance;
         public static ICharacters Characters => Z0000.Characters.Instance;
+        public static F0000.IEnumerableOperator EnumerableOperator => F0000.EnumerableOperator.Instance;
         public static IFilePath FilePath => Q0000.FilePath.Instance;
         public static IFilePathProvider FilePathProvider => Q0000.FilePathProvider.Instance;
         public static Z0004.IStrings ExampleStrings => Z0004.Strings.Instance;
