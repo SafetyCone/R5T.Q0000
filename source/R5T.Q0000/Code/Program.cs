@@ -10,6 +10,9 @@ namespace R5T.Q0000
             /// Explorations.
             //Instances.CharacterExplorations.OutputAllCharacters();
 
+            //EnumerationExplorations.Instance.ExamineFlags();
+            EnumerationExplorations.Instance.ExamineFlagValues();
+
             //Instances.PathExplorations.ShowInvalidPathAndFileNameCharacters();
             //Instances.PathExplorations.AreAllInvalidPathCharactersInInvalidFileNameCharacters();
             //Instances.PathExplorations.DescribeInvalidPathAndFileNameCharacters();
@@ -21,7 +24,7 @@ namespace R5T.Q0000
             //EnumerableExperiments.Instance.DoesZipThrow();
             //EnumerableExperiments.Instance.MaxOnEmpty();
 
-            Experiments.Instance.EquatableInstancesOfInterfaceTypeAndDictionaries();
+            //Experiments.Instance.EquatableInstancesOfInterfaceTypeAndDictionaries();
 
             //FileSystemExperiments.Instance.GetFiles();
             //FileSystemExperiments.Instance.GetFiles_WithEnumerationOptions();
