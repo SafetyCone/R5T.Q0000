@@ -11,7 +11,7 @@ namespace R5T.Q0000
             //Instances.CharacterExplorations.OutputAllCharacters();
 
             //EnumerationExplorations.Instance.ExamineFlags();
-            EnumerationExplorations.Instance.ExamineFlagValues();
+            //EnumerationExplorations.Instance.ExamineFlagValues();
 
             //Instances.PathExplorations.ShowInvalidPathAndFileNameCharacters();
             //Instances.PathExplorations.AreAllInvalidPathCharactersInInvalidFileNameCharacters();
@@ -30,6 +30,8 @@ namespace R5T.Q0000
             //FileSystemExperiments.Instance.GetFiles_WithEnumerationOptions();
 
             //NameOfOperatorExperiments.Instance.HowIsFullNamespaceNameHandled();
+
+            ReflectionExperiments.Instance.Get_StringAssemblyLocation();
 
             //StringExperiments.Instance.RangeOperatorWithOutOfBoundsIndex();
             //StringExperiments.Instance.RangeOperatorStartingAtLastIndex();
