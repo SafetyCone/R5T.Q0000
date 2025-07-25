@@ -15,8 +15,8 @@ namespace R5T.Q0000
 		/// </summary>
 		public void InvalidFileNameCharactersContainsAllInvalidPathCharacters()
         {
-			var invalidPathCharacters = Instances.PathOperator.GetInvalidPathCharacters();
-			var invalidFileNameCharacters = Instances.PathOperator.GetInvalidFileNameCharacters();
+			var invalidPathCharacters = Instances.PathOperator.Get_InvalidPathCharacters();
+			var invalidFileNameCharacters = Instances.PathOperator.Get_InvalidFileNameCharacters();
 
 			var pathCharactersNotInFileNameCharacters = invalidPathCharacters.Except(invalidFileNameCharacters).Now();
 

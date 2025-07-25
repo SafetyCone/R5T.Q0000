@@ -15,7 +15,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-All.txt",
-                Instances.CharacterOperator.IsCharacter);
+                Instances.CharacterOperator.Is_Character);
         }
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Alphanumeric.txt",
-                Instances.CharacterOperator.IsAlphanumeric);
+                Instances.CharacterOperator.Is_Alphanumeric);
         }
 
         /// <summary>
@@ -35,7 +35,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Control.txt",
-                Instances.CharacterOperator.IsControl);
+                Instances.CharacterOperator.Is_Control);
         }
 
         /// <summary>
@@ -45,7 +45,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Digit.txt",
-                Instances.CharacterOperator.IsDigit);
+                Instances.CharacterOperator.Is_Digit);
         }
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Letter.txt",
-                Instances.CharacterOperator.IsLetter);
+                Instances.CharacterOperator.Is_Letter);
         }
 
         /// <summary>
@@ -65,7 +65,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Lowercase.txt",
-                Instances.CharacterOperator.IsLowercase);
+                Instances.CharacterOperator.Is_Lowercase);
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Number.txt",
-                Instances.CharacterOperator.IsNumber);
+                Instances.CharacterOperator.Is_Number);
         }
 
         /// <summary>
@@ -85,7 +85,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Punctuation.txt",
-                Instances.CharacterOperator.IsPunctuation);
+                Instances.CharacterOperator.Is_Punctuation);
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Separator.txt",
-                Instances.CharacterOperator.IsSeparator);
+                Instances.CharacterOperator.Is_Separator);
         }
 
         /// <summary>
@@ -105,7 +105,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Symbol.txt",
-                Instances.CharacterOperator.IsSymbol);
+                Instances.CharacterOperator.Is_Symbol);
         }
 
         /// <summary>
@@ -115,7 +115,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Uppercase.txt",
-                Instances.CharacterOperator.IsUppercase);
+                Instances.CharacterOperator.Is_Uppercase);
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace R5T.Q0000
         {
             Instances.CharacterOperator.OutputCharactersWhere(
                 @"Characters-Whitespace.txt",
-                Instances.CharacterOperator.IsWhitespace);
+                Instances.CharacterOperator.Is_Whitespace);
         }
 
 
